@@ -44,3 +44,27 @@ a {
 .hidden {
   display: none;
 }
+
+.button{
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21px;
+
+  padding: 17px 26px;
+
+  border-radius: 3px;
+
+  border: 1px solid #3A95FF;
+
+  width: 200px;
+
+  background-color: transparent;
+  color: #3A95FF;
+
+  cursor: pointer;
+}
+
+.button--get{
+  background-color: #3A95FF;
+  color: #ffffff;
+}

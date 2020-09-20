@@ -1,5 +1,8 @@
 .main-header{
+  position: relative;
+  z-index: 1;
 
+  background-color: #ffffff;
 }
 
 .main-header__top-nav{
