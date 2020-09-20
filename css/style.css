@@ -1,0 +1,44 @@
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+.content-box-component {
+  box-sizing: content-box;
+}
+
+body {
+  margin: 0;
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #595959;
+}
+
+a {
+  text-decoration: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+.container {
+  width: 1160px;
+  padding: 0 10px;
+}
+
+.hidden {
+  display: none;
+}
