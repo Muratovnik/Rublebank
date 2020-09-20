@@ -18,7 +18,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-size: 15px;
   line-height: 30px;
-  font-weight: 700;
+  font-weight: 500;
   color: #595959;
 }
 
@@ -37,6 +37,8 @@ a {
 .container {
   width: 1160px;
   padding: 0 10px;
+
+  margin: 0 auto;
 }
 
 .hidden {

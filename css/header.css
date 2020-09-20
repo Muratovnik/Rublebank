@@ -1,0 +1,113 @@
+.main-header{
+
+}
+
+.main-header__top-nav{
+  display: flex;
+  align-items: center;
+
+  padding: 25px 0;
+}
+
+
+.main-header__logo{
+  font-size: 20px;
+  line-height: 26px;
+
+  color: #3A95FF;
+  font-weight: 700;
+  text-transform: uppercase;
+
+  padding-left: 25px;
+
+  position: relative;
+}
+
+.main-header__logo a{
+  color: #3A95FF;
+}
+
+.main-header__logo::after{
+  content: "";
+
+  position: absolute;
+
+  top: 3px;
+  left: 0;
+
+  background-color: #3A95FF;
+
+  width: 20px;
+  height: 20px;
+
+  border-radius: 20px;
+}
+
+
+.secondary-nav{
+  display: flex;
+  justify-content: space-between;
+
+  width: 945px;
+  height: auto;
+
+  margin-left: 40px;
+}
+
+
+.secondary-nav__list{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  font-size: 14px;
+  line-height: 15.5px;
+  color: #424242;
+}
+
+
+
+.secondary-nav__item{
+  margin-right: 25px;
+}
+
+.secondary-nav__list--right .secondary-nav__item:last-child{
+  margin: 0;
+}
+
+.secondary-nav__link{
+  color: #424242;
+}
+
+.rublebank-link{
+  color: #3A95FF;
+  font-weight: 600;
+}
+
+
+
+.main-nav__list{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  font-size: 16px;
+  line-height: 17.5px;
+  color: #424242;
+}
+
+.main-nav__link{
+  color: #424242;
+}
+
+.main-nav{
+  padding: 25px 0;
+  border: 1px solid #DEDEDE;
+}
