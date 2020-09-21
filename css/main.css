@@ -1,16 +1,14 @@
-.main-content{
+.main-content {
   position: relative;
   z-index: 0;
 }
 
-.get-credit{
-  background-color: #FFFFFF;
+.get-credit {
+  background-color: #ffffff;
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
-
-
 }
 
-.get-credit__wrap{
+.get-credit__wrap {
   padding: 85px 0;
   background-image: url(../img/MainContent/banner.png);
   background-repeat: no-repeat;
@@ -18,7 +16,7 @@
   background-size: initial;
 }
 
-.get-credit__headline{
+.get-credit__headline {
   font-size: 52px;
   line-height: 57px;
   font-weight: 600;
@@ -31,11 +29,11 @@
   margin-bottom: 65px;
 }
 
-.get-credit__headline span{
-  color: #3A95FF;
+.get-credit__headline span {
+  color: #3a95ff;
 }
 
-.get-credit__buttons{
+.offer-buttons {
   width: 440px;
   height: auto;
 
@@ -43,12 +41,11 @@
   justify-content: space-between;
 }
 
-.best-offers .container{
+.best-offers .container {
   padding: 70px 10px 110px;
 }
 
-
-.best-offers__headline{
+.best-offers__headline {
   margin: 0;
   margin-bottom: 25px;
 
@@ -58,7 +55,7 @@
   color: #000000;
 }
 
-.best-offers__slogan{
+.best-offers__slogan {
   margin: 0;
   margin-bottom: 70px;
 
@@ -69,7 +66,7 @@
   line-height: 24px;
 }
 
-.best-offres__list{
+.best-offres__list {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -81,12 +78,11 @@
   grid-row-gap: 60px;
 }
 
-
-.best-offers__item{
+.best-offers__item {
   width: 555px;
   height: 300px;
 
-  background: #EFF2F5;
+  background: #eff2f5;
   box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.05);
   border-radius: 8px;
 
@@ -97,20 +93,20 @@
   background-size: initial;
 }
 
-.best-offers__item--mortgage{
+.best-offers__item--mortgage {
   background-image: url(../img/MainContent/mortgage-keys.png);
 }
-.best-offers__item--piggy{
+.best-offers__item--piggy {
   background-image: url(../img/MainContent/mortgage-piggy.png);
 }
-.best-offers__item--personal-cards{
+.best-offers__item--personal-cards {
   background-image: url(../img/MainContent/personal-cards.png);
 }
-.best-offers__item--partner{
+.best-offers__item--partner {
   background-image: url(../img/MainContent/partner.png);
 }
 
-.best-offers__item h3{
+.best-offers__item h3 {
   margin: 0;
   margin-bottom: 25px;
 
@@ -119,10 +115,9 @@
   line-height: 34px;
 
   color: #212121;
-
 }
 
-.best-offers__item p{
+.best-offers__item p {
   margin: 0;
 
   font-size: 18px;
@@ -130,10 +125,132 @@
   line-height: 23px;
 }
 
-.best-offers__wrap{
+.best-offers__wrap {
   width: 280px;
 }
 
-.best-offers_link{
+.best-offers_link {
+}
 
+.cards-offer {
+  color: #212121;
+  background-color: #eff2f5;
+
+  padding: 140px 0;
+}
+
+.cards-offer .container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.credit-card-offer {
+  width: 750px;
+  height: auto;
+
+  padding: 40px 100px;
+
+  background-color: #e0e5ea;
+  box-shadow: -5px -5px 25px rgba(255, 255, 255, 0.25), 5px 5px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+
+  background-image: url(../img/MainContent/60-days-card.png);
+  background-repeat: no-repeat;
+  background-size: initial;
+  background-position-x: right;
+  background-position-y: top;
+}
+
+.credit-card-offer__headline {
+  margin: 0;
+  margin-bottom: 85px;
+
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 49px;
+}
+
+.credit-card-offer__terms {
+  margin-bottom: 40px;
+}
+
+.card-terms {
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: 100%;
+}
+
+.card-terms__line {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-terms__cell {
+  padding: 0;
+  text-align: center;
+
+  width: 157px;
+  height: auto;
+}
+
+.card-terms__term {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 39px;
+
+  border-bottom: 1px solid #3a95ff;
+
+  padding-bottom: 6px;
+}
+
+.card-terms__term-name {
+  padding-top: 6px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23px;
+
+  color: #424242;
+}
+
+.cards-offer__options{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cards-offer__options-item {
+  background-color: #f7f7f7;
+  box-shadow: -5px -5px 25px rgba(255, 255, 255, 0.25), 5px 5px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  border-bottom: 5px solid #3A95FF;
+
+  padding: 34px 34px 29px 34px;
+
+  width: 360px;
+  height: 235px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  margin-bottom: 30px;
+}
+
+.cards-offer__options-item:last-child{
+  margin-bottom: 0;
+}
+
+.cards-offer__headline {
+  margin: 0;
+
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 34px;
+
+  color: #242424;
+}
+
+.cards-offer__link{
+  display: block;
+  margin-left: auto;
 }
