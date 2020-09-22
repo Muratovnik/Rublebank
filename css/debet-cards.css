@@ -1,0 +1,80 @@
+.debet-cards {
+  padding: 70px 0;
+}
+
+.debet-cards__headline {
+  margin: 0;
+  margin-bottom: 70px;
+
+  font-size: 40px;
+
+  font-weight: 600;
+  line-height: 49px;
+
+  color: #000000;
+}
+
+.debet-cards__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.debet-cards__item {
+  margin-bottom: 70px;
+  padding: 50px 120px;
+
+  background-color: #eff2f5;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+
+
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: initial;
+}
+.debet-cards__item:last-child {
+  margin-bottom: 0;
+}
+
+.debet-cards__item-wrap {
+  width: 440px;
+  margin-left: auto;
+}
+
+.debet-cards__item-headline {
+  margin: 0;
+  margin-bottom: 45px;
+
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 42px;
+  color: #212121;
+}
+
+.debet-cards__features-list {
+  margin: 0;
+  margin-bottom: 45px;
+  padding: 0;
+  list-style: none;
+
+  font-size: 20px;
+
+  font-weight: 400;
+  line-height: 40px;
+}
+
+.debet-cards__features-item{
+  height: auto;
+
+}
+
+.debet-cards__item--ruble{
+  background-image: url(../img/MainContent/debit-cards/ruble-card.png);
+}
+.debet-cards__item--travel{
+  background-image: url(../img/MainContent/debit-cards/travel-card.png);
+}
+.debet-cards__item--super{
+  background-image: url(../img/MainContent/debit-cards/super-card.png);
+}
