@@ -129,7 +129,13 @@
   width: 280px;
 }
 
-.best-offers_link {
+.best-offers__link {
+  text-decoration: none;
+  color: #212121;
+}
+.best-offers__link:focus,
+.best-offers__link:hover{
+  text-decoration: underline;
 }
 
 .cards-offer {

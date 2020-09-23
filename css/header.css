@@ -22,21 +22,27 @@
   text-transform: uppercase;
 
   padding-left: 25px;
+}
 
+.main-header__logo-link{
+  color: #3A95FF;
   position: relative;
 }
 
-.main-header__logo a{
-  color: #3A95FF;
+.main-header__logo-link:hover{
+  opacity: .8;
+}
+.main-header__logo-link:active{
+  opacity: .6;
 }
 
-.main-header__logo::after{
+.main-header__logo-link::after{
   content: "";
 
   position: absolute;
 
-  top: 3px;
-  left: 0;
+  top: 2px;
+  left: -24px;
 
   background-color: #3A95FF;
 
@@ -84,10 +90,24 @@
 .secondary-nav__link{
   color: #424242;
 }
+.secondary-nav__link:hover,
+.secondary-nav__link:focus{
+  color: #3A95FF;
+}
+.secondary-nav__link:active{
+  opacity: .6;
+}
 
 .rublebank-link{
   color: #3A95FF;
   font-weight: 600;
+}
+.rublebank-link:hover,
+.rublebank-link:focus{
+  text-decoration: underline;
+}
+.rublebank-link:active{
+  opacity: .6;
 }
 
 
@@ -109,6 +129,14 @@
 .main-nav__link{
   color: #424242;
 }
+.main-nav__link:hover,
+.main-nav__link:focus{
+  color: #3A95FF;
+}
+.main-nav__link:active{
+  opacity: .6;
+}
+
 
 .main-nav{
   padding: 25px 0;

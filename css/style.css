@@ -67,7 +67,16 @@ a {
   cursor: pointer;
 }
 
+.button:hover,
+.button:focus{
+
+}
+
 .button--get{
   background-color: #3A95FF;
   color: #ffffff;
 }
+
+
+
+
