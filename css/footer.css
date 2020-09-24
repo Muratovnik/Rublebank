@@ -31,11 +31,19 @@
 
 .main-footer__feedback-link{
   display: block;
+  width: max-content;
   margin-bottom: 22px;
 
   font-weight: 600;
   text-decoration-line: underline;
   color: #424242;
+}
+.main-footer__feedback-link:focus,
+.main-footer__feedback-link:hover{
+  text-decoration-line: none;
+}
+.main-footer__feedback-link:active{
+  opacity: .6;
 }
 
 
@@ -57,6 +65,13 @@
 
 .main-footer__item a{
   color: #424242;
+}
+.main-footer__item a:hover,
+.main-footer__item a:focus{
+  opacity: .6;
+}
+.main-footer__item a:active{
+  opacity: .3;
 }
 
 .main-footer__item:last-child{

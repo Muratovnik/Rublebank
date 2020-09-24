@@ -340,3 +340,10 @@
 
   color: #212121;
 }
+
+
+.wrong-page{
+  text-align: center;
+  color: #000000;
+  margin-top: 40vh;
+}
