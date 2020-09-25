@@ -97,6 +97,9 @@
 .secondary-nav__link:active{
   opacity: .6;
 }
+.secondary-nav__link--bankomats{
+  text-decoration: underline;
+}
 
 .rublebank-link{
   color: #3A95FF;
