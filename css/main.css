@@ -3,6 +3,10 @@
   z-index: 0;
 }
 
+
+
+
+
 .get-credit {
   background-color: #ffffff;
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
@@ -10,6 +14,7 @@
 
 .get-credit__wrap {
   padding: 85px 0;
+
   background-image: url(../img/MainContent/banner.png);
   background-repeat: no-repeat;
   background-position: right;
@@ -17,20 +22,18 @@
 }
 
 .get-credit__headline {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 65px;
+
   font-size: 52px;
   line-height: 57px;
   font-weight: 600;
-
-  margin: 0;
-  padding: 0;
-
-  color: #000000;
-
-  margin-bottom: 65px;
+  color: rgb(0, 0, 0);
 }
 
 .get-credit__headline span {
-  color: #3a95ff;
+  color: rgb(58, 149, 255);
 }
 
 .offer-buttons {
@@ -41,8 +44,15 @@
   justify-content: space-between;
 }
 
+
+
+
+
 .best-offers .container {
-  padding: 70px 10px 110px;
+  padding-top: 70px;
+  padding-right: 10px;
+  padding-bottom: 110px;
+  padding-left: 10px;
 }
 
 .best-offers__headline {
@@ -52,15 +62,14 @@
   font-size: 40px;
   line-height: 49px;
 
-  color: #000000;
+  color: rgb(0, 0, 0);
 }
 
 .best-offers__slogan {
   margin: 0;
   margin-bottom: 70px;
 
-  color: #000000;
-
+  color: rgb(0, 0, 0);
   font-size: 20px;
   font-weight: 400;
   line-height: 24px;
@@ -82,11 +91,11 @@
   width: 555px;
   height: 300px;
 
-  background: #eff2f5;
+  padding: 35px;
+
+  background: rgb(239, 242, 245);
   box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.05);
   border-radius: 8px;
-
-  padding: 35px;
 
   background-repeat: no-repeat;
   background-position: right;
@@ -110,11 +119,10 @@
   margin: 0;
   margin-bottom: 25px;
 
+  color: rgb(33, 33, 33);
   font-size: 26px;
   font-weight: 600;
   line-height: 34px;
-
-  color: #212121;
 }
 
 .best-offers__item p {
@@ -138,11 +146,15 @@
   text-decoration: underline;
 }
 
-.cards-offer {
-  color: #212121;
-  background-color: #eff2f5;
 
+
+
+
+.cards-offer {
   padding: 140px 0;
+  
+  color: rgb(33, 33, 33);
+  background-color: rgb(239, 242, 245);
 }
 
 .cards-offer .container {
@@ -156,7 +168,7 @@
 
   padding: 40px 100px;
 
-  background-color: #e0e5ea;
+  background-color: rgb(224, 229, 234);
   box-shadow: -5px -5px 25px rgba(255, 255, 255, 0.25), 5px 5px 15px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
 
@@ -192,21 +204,22 @@
 }
 
 .card-terms__cell {
-  padding: 0;
-  text-align: center;
-
   width: 157px;
   height: auto;
+
+  padding: 0;
+
+  text-align: center;
 }
 
 .card-terms__term {
+  padding-bottom: 6px;
+
   font-size: 30px;
   font-weight: 500;
   line-height: 39px;
 
-  border-bottom: 1px solid #3a95ff;
-
-  padding-bottom: 6px;
+  border-bottom: 1px solid rgb(58, 149, 255);
 }
 
 .card-terms__term-name {
@@ -215,7 +228,7 @@
   font-weight: 500;
   line-height: 23px;
 
-  color: #424242;
+  color: rgb(66, 66, 66);
 }
 
 .cards-offer__options {
@@ -225,10 +238,10 @@
 }
 
 .cards-offer__options-item {
-  background-color: #f7f7f7;
+  background-color: rgb(247, 247, 247);
   box-shadow: -5px -5px 25px rgba(255, 255, 255, 0.25), 5px 5px 25px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
-  border-bottom: 5px solid #3a95ff;
+  border-radius: 5px;
+  border-bottom: 5px solid rgb(58, 149, 255);
 
   padding: 34px 34px 29px 34px;
 
@@ -253,7 +266,7 @@
   font-weight: 600;
   line-height: 34px;
 
-  color: #242424;
+  color: rgb(36, 36, 36);
 }
 
 .cards-offer__link {
@@ -261,39 +274,43 @@
   margin-left: auto;
 }
 
+
+
+
+
 .get-card {
-  padding: 70px 0px 110px;
+  padding-top: 70px;
+  padding-bottom: 110px;
 }
 
 .get-card__headline {
-  font-size: 40px;
-
-  font-weight: 600;
-  line-height: 49px;
-
-  color: #212121;
-
   margin: 0;
   margin-bottom: 70px;
+
+  color: rgb(33, 33, 33);
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 49px;
 }
 
 .get-card__list {
   margin: 0;
   padding: 0;
   list-style: none;
+
   display: flex;
   justify-content: space-around;
 }
 
 .get-card__item{
+  position: relative;
+
   max-width: 120px;
 
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-
-  position: relative;
+  align-items: center;  
 }
 
 .get-card__item::after{
@@ -321,29 +338,27 @@
   width: 82px;
   height: 82px;
 
+  margin-bottom: 25px;
+
   display: flex;
   justify-content: center;
   align-items: center;
-
-  margin-bottom: 25px;
 }
 
 .get-card__text {
   margin: 0;
 
-
-
+  color: #212121;
   font-size: 20px;
   font-weight: 500;
   line-height: 28px;
   text-align: center;
-
-  color: #212121;
 }
 
 
 .wrong-page{
-  text-align: center;
-  color: #000000;
   margin-top: 40vh;
+
+  color: rgb(0, 0, 0);
+  text-align: center;
 }

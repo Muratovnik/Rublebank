@@ -1,59 +1,59 @@
-.main-header{
+.main-header {
   position: relative;
   z-index: 1;
 
-  background-color: #ffffff;
+  background-color: rgb(255, 255, 255);
 }
 
-.main-header__top-nav{
+.main-header__top-nav {
   display: flex;
   align-items: center;
 
   padding: 25px 0;
 }
 
+.main-header__logo {
+  padding-left: 25px;
 
-.main-header__logo{
+  color: rgb(58, 149, 255);
   font-size: 20px;
   line-height: 26px;
-
-  color: #3A95FF;
   font-weight: 700;
   text-transform: uppercase;
-
-  padding-left: 25px;
 }
 
-.main-header__logo-link{
-  color: #3A95FF;
+.main-header__logo-link {
   position: relative;
+
+  color: rgb(58, 149, 255);
 }
 
-.main-header__logo-link:hover{
-  opacity: .8;
+.main-header__logo-link:hover {
+  opacity: 0.8;
 }
-.main-header__logo-link:active{
-  opacity: .6;
+.main-header__logo-link:active {
+  opacity: 0.6;
 }
 
-.main-header__logo-link::after{
+.main-header__logo-link::after {
   content: "";
 
   position: absolute;
-
   top: 2px;
   left: -24px;
-
-  background-color: #3A95FF;
 
   width: 20px;
   height: 20px;
 
+  background-color: rgb(58, 149, 255);
   border-radius: 20px;
 }
 
 
-.secondary-nav{
+
+
+
+.secondary-nav {
   display: flex;
   justify-content: space-between;
 
@@ -63,8 +63,7 @@
   margin-left: 40px;
 }
 
-
-.secondary-nav__list{
+.secondary-nav__list {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -74,48 +73,46 @@
 
   font-size: 14px;
   line-height: 15.5px;
-  color: #424242;
+  color: rgb(66, 66, 66);
 }
 
-
-
-.secondary-nav__item{
+.secondary-nav__item {
   margin-right: 25px;
 }
 
-.secondary-nav__list--right .secondary-nav__item:last-child{
+.secondary-nav__list--right .secondary-nav__item:last-child {
   margin: 0;
 }
 
-.secondary-nav__link{
-  color: #424242;
+.secondary-nav__link {
+  color: rgb(66, 66, 66);
 }
 .secondary-nav__link:hover,
-.secondary-nav__link:focus{
-  color: #3A95FF;
+.secondary-nav__link:focus {
+  color: rgb(58, 149, 255);
 }
-.secondary-nav__link:active{
-  opacity: .6;
+.secondary-nav__link:active {
+  opacity: 0.6;
 }
-.secondary-nav__link--bankomats{
+.secondary-nav__link--bankomats {
   text-decoration: underline;
 }
 
-.rublebank-link{
-  color: #3A95FF;
+.secondary-nav__link--rublebank {
+  color: rgb(58, 149, 255);
   font-weight: 600;
 }
-.rublebank-link:hover,
-.rublebank-link:focus{
+.secondary-nav__link--rublebank:hover,
+.secondary-nav__link--rublebank:focus {
   text-decoration: underline;
 }
-.rublebank-link:active{
-  opacity: .6;
-}
 
 
 
-.main-nav__list{
+
+
+
+.main-nav__list {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -126,22 +123,21 @@
 
   font-size: 16px;
   line-height: 17.5px;
-  color: #424242;
+  color: rgb(66, 66, 66);
 }
 
-.main-nav__link{
-  color: #424242;
+.main-nav__link {
+  color: rgb(66, 66, 66);
 }
 .main-nav__link:hover,
-.main-nav__link:focus{
-  color: #3A95FF;
+.main-nav__link:focus {
+  color: rgb(58, 149, 255);
 }
-.main-nav__link:active{
-  opacity: .6;
+.main-nav__link:active {
+  opacity: 0.6;
 }
 
-
-.main-nav{
+.main-nav {
   padding: 25px 0;
-  border: 1px solid #DEDEDE;
+  border: 1px solid rgb(222, 222, 222);
 }
