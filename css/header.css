@@ -15,7 +15,7 @@
 .main-header__logo {
   padding-left: 25px;
 
-  color: rgb(58, 149, 255);
+  color: var(--blue-color);
   font-size: 20px;
   line-height: 26px;
   font-weight: 700;
@@ -25,7 +25,7 @@
 .main-header__logo-link {
   position: relative;
 
-  color: rgb(58, 149, 255);
+  color: var(--blue-color);
 }
 
 .main-header__logo-link:hover {
@@ -45,7 +45,7 @@
   width: 20px;
   height: 20px;
 
-  background-color: rgb(58, 149, 255);
+  background-color: var(--blue-color);
   border-radius: 20px;
 }
 
@@ -89,7 +89,7 @@
 }
 .secondary-nav__link:hover,
 .secondary-nav__link:focus {
-  color: rgb(58, 149, 255);
+  color: var(--blue-color);
 }
 .secondary-nav__link:active {
   opacity: 0.6;
@@ -99,7 +99,7 @@
 }
 
 .secondary-nav__link--rublebank {
-  color: rgb(58, 149, 255);
+  color: var(--blue-color);
   font-weight: 600;
 }
 .secondary-nav__link--rublebank:hover,
@@ -131,7 +131,7 @@
 }
 .main-nav__link:hover,
 .main-nav__link:focus {
-  color: rgb(58, 149, 255);
+  color: var(--blue-color);
 }
 .main-nav__link:active {
   opacity: 0.6;
